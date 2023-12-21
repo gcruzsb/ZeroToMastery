@@ -1,0 +1,26 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(beach.jpg);
+	background-size: cover; 
+}
+
+h2 {
+	color: rgba(255, 255, 255, .9);
+	text-align: center;
+	border: 5px solid rgba(255, 255, 255, .25);
+	cursor: pointer;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext { border: 5 px dashed ;}

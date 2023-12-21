@@ -1,37 +1,48 @@
-//Build Facebook 
-//We need a list of multiple users, so we used an array for that. 
-//Based on if the login info is right or wrong, you will either get 
-//the newsfeed or an alert that says it's wrong. 
+//Objects Section of course
+var user = {
 
-var database = [
+name: "John",
+age: 34,
+hobby: "Soccer",
+isMarried: false
+
+};
+
+var list = [
 	{
-	username: "gabi",
-	password: "topsecret"
+		username: "andy"
+		password: "secret"
+	},
+	{
+		username: "jess"
+		password: "123"
 	}
-];
-
-var newsFeed = [
-{
-	username: "Bobby",
-	timeline: "So tired"
-},
-{
-	username: "Sally",
-	timeline: "Javascript is so cool"
-}
 
 ];
 
-var userNamePrompt = prompt("What's your username");
-var passwordPrompt = prompt("What's your password");
 
-function signIn(user, pass) { 
-	if (user === database[0].username && 
-		pass === database[0].password) {
-		console.log(newsFeed);
-	} else { 
-		alert("Sorry, wrong username and password!");
-	}
-}
+//Facebook Excercise
 
-signIn(userNamePrompt, passwordPrompt);
+var user1 = 
+	{
+		username: "tiffany",
+		password: "secret"
+	};
+
+var database = [user1];
+
+var newsfeed = [
+ {
+ 	username: "alice" ,
+ 	timeline: "henna"
+ },
+ {
+ 	username: "bob",
+ 	timeline: "swamped"
+ },
+ {
+ 	username: "charlie",
+ 	timeline: "day"
+ }
+
+];
